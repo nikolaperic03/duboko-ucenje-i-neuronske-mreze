@@ -12,8 +12,8 @@ Model je implementiran kroz klasu "FeedForwardNetDropout", kao višeslojna potpu
 
 1. Ulazni sloj: `nn.Linear(385, 256)` – Prima 385 karakteristika, mapira ih u 256 neurona. Koristi se ReLU aktivaciona funkcija uz Dropout (0.2).
 2. Skriveni sloj 1: `nn.Linear(256, 128)` – 128 neurona, uz ReLU aktivacionu funkciju i Dropout (0.2).
-3. Skriveni sloj 2 (Hidden Layer 2): `nn.Linear(128, 64)` – 64 neurona, uz ReLU aktivacionu funkciju i Dropout (0.2).
-4. Izlazni sloj (Output Layer): `nn.Linear(64, 2)` – Vraća sirove vrednosti koje se kasnije prosleđuju funkciji greške.
+3. Skriveni sloj 2 : `nn.Linear(128, 64)` – 64 neurona, uz ReLU aktivacionu funkciju i Dropout (0.2).
+4. Izlazni sloj : `nn.Linear(64, 2)` – Vraća sirove vrednosti koje se kasnije prosleđuju funkciji greške.
 
 
 Uvođenje  Dropout slojeva od 20% ima  ulogu u sprečavanju modela da razvije preveliku zavisnost od specifičnih neurona tokom treninga. Odnosno izbegava se overfitting modela nad podacima.
