@@ -60,8 +60,8 @@ True Positive (113): 113 spam poruka je uspešno detektovano.
 Zbog visokog recall-a za klasu spam, model se čini veoma pouzdanim i stabilnim. Sa druge strane 8 promešenih poruka, koje su okarakterisane kao spam, a nisu, nije loš rezultat, iako bi model oprezniji, kada bi taj broj bio veći (manje bi poruka propustio ka spam), korisnici ne vole kada im normalne poruke budu označene kao nepoželjne. Upravo taj balans između precision i recall skorova, čini model pouzdanijim i stabilnijim.
 
 ## 8. Zaklučak
-Kombinacija naprednih semantičkih reprezentacija teksta (dobijenih preko Sentence Transformer modela) i pažljivo optimizovane višeslojne neuronske mreže pokazala se kao izuzetno moćno rešenje za problem detekcije prevara putem elektronske pošte. 
+Kombinacija naprednih semantičkih reprezentacija teksta (dobijenih preko Sentence Transformer modela) i optimizovane višeslojne neuronske mreže pokazala se kao moćno rešenje za problem detekcije prevara putem elektronske pošte. 
 
 
-Dokazano je da pravilno podešavanje hiperparametara, pre svega brzine učenja (lr) i implementacija mehanizama Dropout i Early Stopping, predstavljaju važan korak u razvoju stabilnog modela. Razvijeni model uspešno generalizuje naučene obrasce na novim podacima, ostvarujući visoku tačnost od 94.55% i pokazuje spremnost za praktičnu primjenu.
+Dokazano je da pravilno podešavanje hiperparametara, pre svega brzine učenja (lr) i implementacija mehanizama Dropout i Early Stopping, predstavljaju važan korak u razvoju stabilnog modela. Razvijeni model uspešno generalizuje naučene obrasce na novim podacima, ostvarujući visoku tačnost od 94.55% i pokazuje spremnost za praktičnu primenu.
 
